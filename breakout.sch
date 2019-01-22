@@ -4402,7 +4402,7 @@ type 0309, grid 2.5 mm</description>
 <part name="D2" library="adafruit" deviceset="DIODE" device="SMA"/>
 <part name="R2" library="adafruit" deviceset="R-US_" device="R0603"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="EXTRA-FAN" library="con-amp-quick" deviceset="M02" device=""/>
+<part name="FAN" library="con-amp-quick" deviceset="M02" device=""/>
 <part name="T3" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC808"/>
 <part name="D3" library="adafruit" deviceset="DIODE" device="SMA"/>
 <part name="R3" library="adafruit" deviceset="R-US_" device="R0603"/>
@@ -4437,7 +4437,7 @@ type 0309, grid 2.5 mm</description>
 <instance part="D2" gate="G$1" x="96.52" y="58.42" rot="R90"/>
 <instance part="R2" gate="G$1" x="81.28" y="63.5" rot="R90"/>
 <instance part="GND2" gate="1" x="96.52" y="50.8"/>
-<instance part="EXTRA-FAN" gate="G$1" x="147.32" y="81.28" rot="MR0"/>
+<instance part="FAN" gate="G$1" x="147.32" y="81.28" rot="MR0"/>
 <instance part="T3" gate="G$1" x="132.08" y="73.66"/>
 <instance part="D3" gate="G$1" x="139.7" y="73.66" rot="R90"/>
 <instance part="R3" gate="G$1" x="127" y="78.74" rot="R90"/>
@@ -4547,7 +4547,7 @@ type 0309, grid 2.5 mm</description>
 <wire x1="83.82" y1="88.9" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="EXTRA-FAN" gate="G$1" pin="2"/>
+<pinref part="FAN" gate="G$1" pin="2"/>
 <pinref part="P+2" gate="1" pin="+12V"/>
 <wire x1="139.7" y1="83.82" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="83.82" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
@@ -4641,7 +4641,7 @@ type 0309, grid 2.5 mm</description>
 <net name="N$13" class="0">
 <segment>
 <pinref part="D3" gate="G$1" pin="C"/>
-<pinref part="EXTRA-FAN" gate="G$1" pin="1"/>
+<pinref part="FAN" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="76.2" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="T3" gate="G$1" pin="C"/>
 <wire x1="139.7" y1="81.28" x2="134.62" y2="81.28" width="0.1524" layer="91"/>
